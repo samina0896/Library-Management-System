@@ -1,0 +1,33 @@
+<app-nav-component></app-nav-component>
+
+<!-- 
+<div id="my_centered_buttons">
+    <button class="button button2"  [routerLink]="['/addBook']" >Add Book</button>
+</div>
+ 
+<div class="container-fluid">
+   <img [src]= add class="add">
+</div>
+<div id="my_centered_buttons">
+    <button class="button button2"  [routerLink]="['/deleteBook']" >Delete Book</button>
+</div>
+<div class="container-fluid">
+    <img [src]= delete class="delete">
+ </div> -->
+ <div class="row">
+    <div class="col-sm-6">
+ <div id="my_centered_buttons">
+    <button class="button button2"  [routerLink]="['/addBook']" ><div class="container-fluid">
+        <img [src]= add class="add">
+     </div>Add Book</button>
+</div>
+</div>
+<div class="col-sm-6">
+<div id="my_centered_buttons">
+    <button class="button button2"  [routerLink]="['/deleteBook']" ><div class="container-fluid">
+        <img [src]= delete class="add">
+     </div>Delete Book</button>
+</div>
+</div>
+</div>
+<app-footer></app-footer>
